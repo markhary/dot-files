@@ -1,5 +1,5 @@
 # dot-files
 My dot (configuration) files
 
-# Licence
-In public domain - Enjoy!
+# (Un)License
+[Licensed with Unlicense](https://http://unlicense.org) 
