@@ -1,5 +1,5 @@
 """""""""""""""""""""""""""""""""""
-" This file belongs in ~/.config/nvim/init.vim
+" cp init.vim ~/.config/nvim/init.vim
 """""""""""""""""""""""""""""""""""
 " Manage Plugins (using vim-plug)
 "  :Plug<>
@@ -42,6 +42,14 @@ set encoding=utf8
 filetype plugin indent on
 
 colorscheme desert
+
+"" I like tabs to be spaces, specifically 4ofiletype plugin indent on
+" show existing tab with 4 spaces width
+set tabstop=4
+" when indenting with '>', use 4 spaces width
+set shiftwidth=4
+" On pressing tab, insert 4 spaces
+set expandtab
 
 ""
 " configure vim-airline

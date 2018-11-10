@@ -1,3 +1,7 @@
+# This belongs in ~/.bashrc
+# cp bashrc ~/.bashrc
+
+# AWS specific configuration
 complete -C '/usr/local/aws/bin/aws_completer' aws
 
 ## Use nvim over vim
