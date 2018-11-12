@@ -28,6 +28,7 @@ Plug 'altercation/vim-colors-solarized'
 "Plug 'scrooloose/syntastic'
 "Plug 'valloric/youcompleteme'  "Unavailable at the moment, requires Python
 Plug 'vim-airline/vim-airline'
+Plug 'leafgarland/typescript-vim'
 
 
 call plug#end()
@@ -49,7 +50,15 @@ set tabstop=4
 " when indenting with '>', use 4 spaces width
 set shiftwidth=4
 " On pressing tab, insert 4 spaces
+set softtabstop=0
 set expandtab
+set smarttab
+
+"" Unless we are programming, in which case
+autocmd Filetype html setlocal ts=2 sw=2 expandtab smarttab
+autocmd Filetype ruby setlocal ts=2 sw=2 expandtab smarttab
+autocmd Filetype typescript setlocal ts=2 sw=2 sts=0 expandtab smarttab
+autocmd Filetype javascript setlocal ts=4 sw=4 sts=0 expandtab smarttab
 
 ""
 " configure vim-airline
