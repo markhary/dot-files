@@ -25,11 +25,20 @@ Plug 'ajh17/Spacegray.vim'
 Plug 'altercation/vim-colors-solarized'
 
 "Programming
-"Plug 'scrooloose/syntastic'
-"Plug 'valloric/youcompleteme'  "Unavailable at the moment, requires Python
+Plug 'scrooloose/syntastic'
+Plug 'valloric/youcompleteme'
 Plug 'vim-airline/vim-airline'
 Plug 'leafgarland/typescript-vim'
 
+" ALE eslinter
+"Plug 'w0rp/ale'
+
+" Place deoplete first, then autocomplete-flow
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'wokalski/autocomplete-flow'
+" You will also need the following for function argument completion:
+Plug 'Shougo/neosnippet'
+Plug 'Shougo/neosnippet-snippets'
 
 call plug#end()
 """""""""""""""""""""""""""""""""""
@@ -88,5 +97,9 @@ nmap <leader>bl :ls<CR>
 " Show linenumbers
 set number
 
+" Enable deoplete
+let g:deoplete#enable_at_startup = 1
+
 " Mappings configuration
 map <C-n> :NERDTreeToggle<CR>
+
