@@ -29,9 +29,13 @@ Plug 'scrooloose/syntastic'
 Plug 'valloric/youcompleteme'
 Plug 'vim-airline/vim-airline'
 Plug 'leafgarland/typescript-vim'
+Plug 'Townk/vim-autoclose'
+Plug 'mattn/emmet-vim'
+Plug 'janko-m/vim-test'
+Plug 'maksimr/vim-jsbeautify'
 
 " ALE eslinter
-"Plug 'w0rp/ale'
+"Plug 'w0rp/ale'" For html
 
 " Place deoplete first, then autocomplete-flow
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
