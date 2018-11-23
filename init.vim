@@ -26,23 +26,23 @@ Plug 'altercation/vim-colors-solarized'
 
 "Programming
 Plug 'scrooloose/syntastic'
-Plug 'valloric/youcompleteme'
+"Plug 'valloric/youcompleteme'
 Plug 'vim-airline/vim-airline'
 Plug 'leafgarland/typescript-vim'
 Plug 'Townk/vim-autoclose'
 Plug 'mattn/emmet-vim'
-Plug 'janko-m/vim-test'
-Plug 'maksimr/vim-jsbeautify'
+"Plug 'janko-m/vim-test'
+"Plug 'maksimr/vim-jsbeautify'
 
 " ALE eslinter
 "Plug 'w0rp/ale'" For html
 
 " Place deoplete first, then autocomplete-flow
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'wokalski/autocomplete-flow'
+"Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+"Plug 'wokalski/autocomplete-flow'
 " You will also need the following for function argument completion:
-Plug 'Shougo/neosnippet'
-Plug 'Shougo/neosnippet-snippets'
+"Plug 'Shougo/neosnippet'
+"Plug 'Shougo/neosnippet-snippets'
 
 call plug#end()
 """""""""""""""""""""""""""""""""""
