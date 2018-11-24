@@ -11,3 +11,6 @@ Run make `$make install`, because make is solid.  Or do it manually.  `$head <fi
 
 ### (Un)License
 This software is [Unlicensed](https://http://unlicense.org) 
+
+### Acknowledgements
+* [amacgregor/dot-files](https://github.com/amacgregor/dot-files/blob/master/vimrc)
