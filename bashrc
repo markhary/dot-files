@@ -37,3 +37,6 @@ alias ln='ln -i'
 alias chown='chown --preserve-root'
 alias chmod='chmod --preserve-root'
 alias chgrp='chgrp --preserve-root'
+
+# for signing (https) with GPG
+export GPG_TTY=$(tty)
