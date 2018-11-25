@@ -20,7 +20,7 @@ alias l.='ls -d .* --color=auto'
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
-alias nfind='find . -not \( -path ./.git -prune \) -not \( -path ./node_modules -prune \) -print'
+alias nfind='find . -not \( -path ./.git -prune \) -not \( -path ./node_modules -prune \) -type f -print'
 
 # install  colordiff package :)
 alias diff='colordiff'
