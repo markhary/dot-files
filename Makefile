@@ -3,3 +3,6 @@ install:
 	-cp -i bashrc ~/.bashrc
 	-cp -i init.vim ~/.config/nvim/init.vim
 
+diff:
+	-diff  bashrc ~/.bashrc
+	-diff  init.vim ~/.config/nvim/init.vim
