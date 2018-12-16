@@ -21,6 +21,7 @@ alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias nfind='find . -not \( -path ./.git -prune \) -not \( -path ./node_modules -prune \) -type f -print'
+alias mfind='find . ! -type d -print0 | xargs -0 grep -i'
 
 # install  colordiff package :)
 alias diff='colordiff'
