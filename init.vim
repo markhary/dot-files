@@ -85,6 +85,8 @@ let g:airline#extensions#tabline#fnamemod = ':t'
 " add support for c++-11 extensions
 let g:syntastic_cpp_compiler = 'clang++'
 let g:syntastic_cpp_compiler_options = ' -std=c++11 -stdlib=libc++'
+let g:syntastic_cpp_config_file = '.syntastic_cpp_config'
+let g:syntastic_check_on_open = 1 
 
 " This allows buffers to be hidden if you've modified a buffer.
 " This is almost a must if you wish to use buffers in this way.
