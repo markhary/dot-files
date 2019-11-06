@@ -1,8 +1,11 @@
 # This belongs in ~/.bashrc
-# cp bashrc ~/.bashrc
+# cp aliases ~/.aliases
 
 # AWS specific configuration
-complete -C '/usr/local/aws/bin/aws_completer' aws
+# bash
+#complete -C '/usr/local/aws/bin/aws_completer' aws
+# zsh
+source /usr/local/aws/bin/aws_zsh_completer.sh
 
 ## Use nvim over vim
 alias vim=nvim
@@ -35,9 +38,9 @@ alias cp='cp -i'
 alias ln='ln -i'
  
 # Parenting changing perms on / #
-alias chown='chown --preserve-root'
-alias chmod='chmod --preserve-root'
-alias chgrp='chgrp --preserve-root'
+#alias chown='chown --preserve-root'
+#alias chmod='chmod --preserve-root'
+#alias chgrp='chgrp --preserve-root'
 
 # for signing (https) with GPG
 export GPG_TTY=$(tty)

@@ -4,10 +4,14 @@ This repository contains my standard configuration.  Hopefully you find it usefu
 ### Files
 
 + vim-init - Configuration file made for neovim
-+ bashrc - Bash shell configuration, may need to be split into ***.bashrc*** and ***.bash_aliases***
++ bash_profile - Bash shell configuration
++ aliases - Useful aliases (bash and zsh support)
 
 ### Installation
 Run make `$make install`, because make is solid.  Or do it manually.  `$head <file>` if you don't know where it belongs.
+
+You'll have to copy bash_profile manually.
+``` cp bash_profile ~/.bash_profile```
 
 ### Configuration
 1. Configuring git with GPG signatures
