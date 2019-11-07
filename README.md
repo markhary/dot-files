@@ -3,9 +3,9 @@ This repository contains my standard configuration.  Hopefully you find it usefu
 
 ### Files
 
-+ vim-init - Configuration file made for neovim
-+ bash_profile - Bash shell configuration
 + aliases - Useful aliases (bash and zsh support)
++ bash_profile - Bash shell configuration
++ vim-init - Configuration file made for neovim
 + zshrc - Configuration file for zsh
 
 ### Installation
