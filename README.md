@@ -6,6 +6,7 @@ This repository contains my standard configuration.  Hopefully you find it usefu
 + vim-init - Configuration file made for neovim
 + bash_profile - Bash shell configuration
 + aliases - Useful aliases (bash and zsh support)
++ zshrc - Configuration file for zsh
 
 ### Installation
 Run make `$make install`, because make is solid.  Or do it manually.  `$head <file>` if you don't know where it belongs.
